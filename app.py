@@ -31,6 +31,9 @@ def modulo():
     result = number1 % number2
     return jsonify(result=result)
 
+def exponential_function(x):
+    return math.exp(x)
+
 # You can add more routes for each math function
 # for example, multiplication, square roots, etc.
 
